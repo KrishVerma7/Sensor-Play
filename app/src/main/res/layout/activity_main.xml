@@ -11,12 +11,31 @@
       android:id="@+id/flProxIndicator"
       android:layout_width="match_parent"
       android:layout_height="0dp"
-      android:layout_weight="1"/>
+      android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="swipe your palm near screen" />
+
+  </FrameLayout>
 
     <FrameLayout
         android:id="@+id/flAccelIndicator"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1">
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textSize="20dp"
+          android:text="Tilt your screen" />
+    </FrameLayout>
 
 </LinearLayout>
